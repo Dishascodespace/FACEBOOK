@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>Facebook</h1>
+            </div>
+            <div class="nav">
+                <a href="#">Home</a>
+                <a href="#">Friends</a>
+                <a href="#">Notifications</a>
+                <a href="#">Messages</a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="content">
+            <div class="left-column">
+                <div class="profile">
+                    <img src="https://via.placeholder.com/100" alt="profile" class="profile-pic">
+                    <p><strong>John Doe</strong></p>
+                    <p>Developer at XYZ</p>
+                    <button>Update Info</button>
+                </div>
+                <div class="friends-list">
+                    <h2>Friends</h2>
+                    <ul>
+                        <li><img src="https://via.placeholder.com/50" alt="friend"> Jane Smith</li>
+                        <li><img src="https://via.placeholder.com/50" alt="friend"> Bob Johnson</li>
+                        <li><img src="https://via.placeholder.com/50" alt="friend"> Sarah Lee</li>
+                    </ul>
